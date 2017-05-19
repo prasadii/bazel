@@ -58,7 +58,7 @@ mkdir -p "${OUTPUT_DIR}/src"
 # May be passed in from outside.
 ZIPOPTS="$ZIPOPTS"
 
-unset JAVA_TOOL_OPTIONS
+unset CXXSTD="c++11"
 unset _JAVA_OPTIONS
 
 LDFLAGS=${LDFLAGS:-""}
